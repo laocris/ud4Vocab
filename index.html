@@ -223,6 +223,30 @@
           transform: scale(0.95);
       }
     
+      /*Attribution*/
+    .attribution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .attribution a {
+      color: #0073b1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .attribution a:hover {
+      text-decoration: underline;
+    }
+
     /* Tablet styles */
     @media (max-width: 768px) {
       body {
@@ -554,6 +578,15 @@
         <button id="prev-button">← Anterior</button>
         <button id="next-button">Siguiente →</button>
       </div>
+      <div class="attribution">
+          Audios provided by 
+          <a href="https://es.linkedin.com/in/raquel-cubas-godoy-0427b71ba" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            Professor Raquel Cubas
+          </a> 
+          from ULPGC.
+        </div>
     </div>
   </div>
 
