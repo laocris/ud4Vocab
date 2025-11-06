@@ -196,6 +196,32 @@
       margin-bottom: 10px;
       cursor: pointer;
     }
+
+    
+      .audio-button {
+          background-color: skyblue;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 13px;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .audio-button:hover {
+          background-color: #7dd3fc;
+          transform: scale(1.1);
+          box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      .audio-button:active {
+          transform: scale(0.95);
+      }
     
     /* Tablet styles */
     @media (max-width: 768px) {
@@ -413,6 +439,80 @@
   </style>
 </head>
 <body>
+  <audio id="audio-yao" preload="auto"><source src="./audiosUD4/要.m4a" type="audio/mp4"></audio>
+<audio id="audio-xiang" preload="auto"><source src="./audiosUD4/想.m4a" type="audio/mp4"></audio>
+<audio id="audio-xi" preload="auto"><source src="./audiosUD4/喜.m4a" type="audio/mp4"></audio>
+<audio id="audio-huan" preload="auto"><source src="./audiosUD4/欢.m4a" type="audio/mp4"></audio>
+<audio id="audio-dui" preload="auto"><source src="./audiosUD4/对.m4a" type="audio/mp4"></audio>
+<audio id="audio-bu" preload="auto"><source src="./audiosUD4/不.m4a" type="audio/mp4"></audio>
+<audio id="audio-qi" preload="auto"><source src="./audiosUD4/起.m4a" type="audio/mp4"></audio>
+<audio id="audio-hao" preload="auto"><source src="./audiosUD4/好.m4a" type="audio/mp4"></audio>
+<audio id="audio-yi" preload="auto"><source src="./audiosUD4/意.m4a" type="audio/mp4"></audio>
+<audio id="audio-si" preload="auto"><source src="./audiosUD4/思.m4a" type="audio/mp4"></audio>
+<audio id="audio-an" preload="auto"><source src="./audiosUD4/安.m4a" type="audio/mp4"></audio>
+<audio id="audio-mei" preload="auto"><source src="./audiosUD4/没.m4a" type="audio/mp4"></audio>
+<audio id="audio-guan" preload="auto"><source src="./audiosUD4/关.m4a" type="audio/mp4"></audio>
+<audio id="audio-xi1" preload="auto"><source src="./audiosUD4/系.m4a" type="audio/mp4"></audio>
+<audio id="audio-shi" preload="auto"><source src="./audiosUD4/事.m4a" type="audio/mp4"></audio>
+<audio id="audio-qing" preload="auto"><source src="./audiosUD4/请.m4a" type="audio/mp4"></audio>
+<audio id="audio-wen" preload="auto"><source src="./audiosUD4/问.m4a" type="audio/mp4"></audio>
+<audio id="audio-ti" preload="auto"><source src="./audiosUD4/题.m4a" type="audio/mp4"></audio>
+<audio id="audio-zuo" preload="auto"><source src="./audiosUD4/坐.m4a" type="audio/mp4"></audio>
+<audio id="audio-ke" preload="auto"><source src="./audiosUD4/可.m4a" type="audio/mp4"></audio>
+<audio id="audio-yi1" preload="auto"><source src="./audiosUD4/以.m4a" type="audio/mp4"></audio>
+<audio id="audio-da" preload="auto"><source src="./audiosUD4/打.m4a" type="audio/mp4"></audio>
+<audio id="audio-kai" preload="auto"><source src="./audiosUD4/开.m4a" type="audio/mp4"></audio>
+<audio id="audio-men" preload="auto"><source src="./audiosUD4/门.m4a" type="audio/mp4"></audio>
+<audio id="audio-chuang" preload="auto"><source src="./audiosUD4/窗.m4a" type="audio/mp4"></audio>
+<audio id="audio-ka" preload="auto"><source src="./audiosUD4/咖.m4a" type="audio/mp4"></audio>
+<audio id="audio-fei" preload="auto"><source src="./audiosUD4/啡.m4a" type="audio/mp4"></audio>
+<audio id="audio-he" preload="auto"><source src="./audiosUD4/喝.m4a" type="audio/mp4"></audio>
+<audio id="audio-bei" preload="auto"><source src="./audiosUD4/杯.m4a" type="audio/mp4"></audio>
+<audio id="audio-cha" preload="auto"><source src="./audiosUD4/茶.m4a" type="audio/mp4"></audio>
+<audio id="audio-guo" preload="auto"><source src="./audiosUD4/果.m4a" type="audio/mp4"></audio>
+<audio id="audio-zhi" preload="auto"><source src="./audiosUD4/汁.m4a" type="audio/mp4"></audio>
+<audio id="audio-ke1" preload="auto"><source src="./audiosUD4/可.m4a" type="audio/mp4"></audio>
+<audio id="audio-le" preload="auto"><source src="./audiosUD4/乐.m4a" type="audio/mp4"></audio>
+<audio id="audio-niu" preload="auto"><source src="./audiosUD4/牛.m4a" type="audio/mp4"></audio>
+<audio id="audio-nai" preload="auto"><source src="./audiosUD4/奶.m4a" type="audio/mp4"></audio>
+<audio id="audio-pi" preload="auto"><source src="./audiosUD4/啤.m4a" type="audio/mp4"></audio>
+<audio id="audio-jiu" preload="auto"><source src="./audiosUD4/酒.m4a" type="audio/mp4"></audio>
+<audio id="audio-hong" preload="auto"><source src="./audiosUD4/红.m4a" type="audio/mp4"></audio>
+<audio id="audio-pu" preload="auto"><source src="./audiosUD4/葡.m4a" type="audio/mp4"></audio>
+<audio id="audio-tao" preload="auto"><source src="./audiosUD4/萄.m4a" type="audio/mp4"></audio>
+<audio id="audio-bai" preload="auto"><source src="./audiosUD4/白.m4a" type="audio/mp4"></audio>
+<audio id="audio-shui" preload="auto"><source src="./audiosUD4/水.m4a" type="audio/mp4"></audio>
+<audio id="audio-re" preload="auto"><source src="./audiosUD4/热.m4a" type="audio/mp4"></audio>
+<audio id="audio-leng" preload="auto"><source src="./audiosUD4/冷.m4a" type="audio/mp4"></audio>
+<audio id="audio-bing" preload="auto"><source src="./audiosUD4/冰.m4a" type="audio/mp4"></audio>
+<audio id="audio-guan1" preload="auto"><source src="./audiosUD4/馆.m4a" type="audio/mp4"></audio>
+<audio id="audio-jiu1" preload="auto"><source src="./audiosUD4/酒.m4a" type="audio/mp4"></audio>
+<audio id="audio-ba" preload="auto"><source src="./audiosUD4/吧.m4a" type="audio/mp4"></audio>
+<audio id="audio-chi" preload="auto"><source src="./audiosUD4/吃.m4a" type="audio/mp4"></audio>
+<audio id="audio-mian" preload="auto"><source src="./audiosUD4/面.m4a" type="audio/mp4"></audio>
+<audio id="audio-tiao" preload="auto"><source src="./audiosUD4/条.m4a" type="audio/mp4"></audio>
+<audio id="audio-mi" preload="auto"><source src="./audiosUD4/米.m4a" type="audio/mp4"></audio>
+<audio id="audio-fan" preload="auto"><source src="./audiosUD4/饭.m4a" type="audio/mp4"></audio>
+<audio id="audio-bao" preload="auto"><source src="./audiosUD4/包.m4a" type="audio/mp4"></audio>
+<audio id="audio-zi" preload="auto"><source src="./audiosUD4/子.m4a" type="audio/mp4"></audio>
+<audio id="audio-jiao" preload="auto"><source src="./audiosUD4/饺.m4a" type="audio/mp4"></audio>
+<audio id="audio-ya" preload="auto"><source src="./audiosUD4/鸭.m4a" type="audio/mp4"></audio>
+<audio id="audio-shou" preload="auto"><source src="./audiosUD4/寿.m4a" type="audio/mp4"></audio>
+<audio id="audio-huo" preload="auto"><source src="./audiosUD4/火.m4a" type="audio/mp4"></audio>
+<audio id="audio-guo1" preload="auto"><source src="./audiosUD4/锅.m4a" type="audio/mp4"></audio>
+<audio id="audio-wei" preload="auto"><source src="./audiosUD4/味.m4a" type="audio/mp4"></audio>
+<audio id="audio-dao" preload="auto"><source src="./audiosUD4/道.m4a" type="audio/mp4"></audio>
+<audio id="audio-yue" preload="auto"><source src="./audiosUD4/月.m4a" type="audio/mp4"></audio>
+<audio id="audio-bing1" preload="auto"><source src="./audiosUD4/饼.m4a" type="audio/mp4"></audio>
+<audio id="audio-tian" preload="auto"><source src="./audiosUD4/甜.m4a" type="audio/mp4"></audio>
+<audio id="audio-ku" preload="auto"><source src="./audiosUD4/苦.m4a" type="audio/mp4"></audio>
+<audio id="audio-xian" preload="auto"><source src="./audiosUD4/咸.m4a" type="audio/mp4"></audio>
+<audio id="audio-yu" preload="auto"><source src="./audiosUD4/鱼.m4a" type="audio/mp4"></audio>
+<audio id="audio-cai" preload="auto"><source src="./audiosUD4/菜.m4a" type="audio/mp4"></audio>
+<audio id="audio-la" preload="auto"><source src="./audiosUD4/辣.m4a" type="audio/mp4"></audio>
+<audio id="audio-suan" preload="auto"><source src="./audiosUD4/酸.m4a" type="audio/mp4"></audio>
+<audio id="audio-nai1" preload="auto"><source src="./audiosUD4/奶.m4a" type="audio/mp4"></audio>
+
   <div class="container">
     <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰ Menú de Caracteres</button>
     
@@ -425,6 +525,9 @@
       <div id="current-word"></div>
       
       <div class="character-display-section">
+         <button class="audio-button" id="audio-button" onclick="playAudio()">
+            🔊 
+          </button>
         <div id="character-target-div"></div>
         <button class="replay-button" onclick="replayAnimation()">
           ↻ Repetir animación
@@ -456,80 +559,81 @@
 
   <script>
 const characters = [
-  { char: '要', pinyin: 'yào', spanish: 'querer/necesitar' },
-  { char: '想', pinyin: 'xiǎng', spanish: 'pensar/querer' },
-  { char: '喜', pinyin: 'xǐ', spanish: 'alegría (gustar)' },
-  { char: '欢', pinyin: 'huan', spanish: 'contento (gustar)' },
-  { char: '对', pinyin: 'duì', spanish: 'correcto/hacia' },
-  { char: '不', pinyin: 'bù', spanish: 'no' },
-  { char: '起', pinyin: 'qǐ', spanish: 'levantarse/iniciar' },
-  { char: '好', pinyin: 'hǎo', spanish: 'bueno' },
-  { char: '意', pinyin: 'yì', spanish: 'intención' },
-  { char: '思', pinyin: 'sī', spanish: 'pensar' },
-  { char: '安', pinyin: 'ān', spanish: 'paz/tranquilidad' },
-  { char: '没', pinyin: 'méi', spanish: 'no tener' },
-  { char: '关', pinyin: 'guān', spanish: 'cerrar' },
-  { char: '系', pinyin: 'xì', spanish: 'relación' },
-  { char: '事', pinyin: 'shì', spanish: 'asunto' },
-  { char: '请', pinyin: 'qǐng', spanish: 'por favor/invitar' },
-  { char: '问', pinyin: 'wèn', spanish: 'preguntar' },
-  { char: '题', pinyin: 'tí', spanish: 'tema/pregunta' },
-  { char: '坐', pinyin: 'zuò', spanish: 'sentarse' },
-  { char: '可', pinyin: 'kě', spanish: 'poder (permitido)' },
-  { char: '以', pinyin: 'yǐ', spanish: 'usar/con' },
-  { char: '打', pinyin: 'dǎ', spanish: 'golpear/abrir' },
-  { char: '开', pinyin: 'kāi', spanish: 'abrir/empezar' },
-  { char: '门', pinyin: 'mén', spanish: 'puerta' },
-  { char: '窗', pinyin: 'chuāng', spanish: 'ventana' },
-  { char: '咖', pinyin: 'kā', spanish: 'café (1er carácter)' },
-  { char: '啡', pinyin: 'fēi', spanish: 'café (2do carácter)' },
-  { char: '喝', pinyin: 'hē', spanish: 'beber' },
-  { char: '杯', pinyin: 'bēi', spanish: 'taza/vaso' },
-  { char: '茶', pinyin: 'chá', spanish: 'té' },
-  { char: '果', pinyin: 'guǒ', spanish: 'fruta' },
-  { char: '汁', pinyin: 'zhī', spanish: 'jugo/zumo' },
-  { char: '可', pinyin: 'kě', spanish: 'puede/posible' },
-  { char: '乐', pinyin: 'lè', spanish: 'alegría' },
-  { char: '牛', pinyin: 'niú', spanish: 'vaca' },
-  { char: '奶', pinyin: 'nǎi', spanish: 'leche' },
-  { char: '啤', pinyin: 'pí', spanish: 'cerveza (1er carácter)' },
-  { char: '酒', pinyin: 'jiǔ', spanish: 'licor' },
-  { char: '红', pinyin: 'hóng', spanish: 'rojo' },
-  { char: '葡', pinyin: 'pú', spanish: 'uva (1er carácter)' },
-  { char: '萄', pinyin: 'táo', spanish: 'uva (2do carácter)' },
-  { char: '白', pinyin: 'bái', spanish: 'blanco' },
-  { char: '水', pinyin: 'shuǐ', spanish: 'agua' },
-  { char: '热', pinyin: 'rè', spanish: 'caliente' },
-  { char: '冷', pinyin: 'lěng', spanish: 'frío' },
-  { char: '冰', pinyin: 'bīng', spanish: 'hielo' },
-  { char: '馆', pinyin: 'guǎn', spanish: 'lugar (cafetería)' },
-  { char: '酒', pinyin: 'jiǔ', spanish: 'licor' },
-  { char: '吧', pinyin: 'bā', spanish: 'bar' },
-  { char: '吃', pinyin: 'chī', spanish: 'comer' },
-  { char: '面', pinyin: 'miàn', spanish: 'fideos' },
-  { char: '条', pinyin: 'tiáo', spanish: 'tira (clasificador)' },
-  { char: '米', pinyin: 'mǐ', spanish: 'arroz' },
-  { char: '饭', pinyin: 'fàn', spanish: 'comida' },
-  { char: '包', pinyin: 'bāo', spanish: 'envolver (pan relleno)' },
-  { char: '子', pinyin: 'zi', spanish: 'sufijo diminutivo' },
-  { char: '饺', pinyin: 'jiǎo', spanish: 'empanadilla' },
-  { char: '鸭', pinyin: 'yā', spanish: 'pato' },
-  { char: '寿', pinyin: 'shòu', spanish: 'longitud de vida' },
-  { char: '火', pinyin: 'huǒ', spanish: 'fuego' },
-  { char: '锅', pinyin: 'guō', spanish: 'olla (hotpot)' },
-  { char: '味', pinyin: 'wèi', spanish: 'sabor' },
-  { char: '道', pinyin: 'dào', spanish: 'camino/sabor' },
-  { char: '月', pinyin: 'yuè', spanish: 'luna/mes' },
-  { char: '饼', pinyin: 'bǐng', spanish: 'pastel' },
-  { char: '甜', pinyin: 'tián', spanish: 'dulce' },
-  { char: '苦', pinyin: 'kǔ', spanish: 'amargo' },
-  { char: '咸', pinyin: 'xián', spanish: 'salado' },
-  { char: '鱼', pinyin: 'yú', spanish: 'pescado' },
-  { char: '菜', pinyin: 'cài', spanish: 'plato/comida' },
-  { char: '辣', pinyin: 'là', spanish: 'picante' },
-  { char: '酸', pinyin: 'suān', spanish: 'ácido' },
-  { char: '奶', pinyin: 'nǎi', spanish: 'leche' }
+  { char: '要', pinyin: 'yào', spanish: 'querer/necesitar', audioId: 'audio-yao' },
+  { char: '想', pinyin: 'xiǎng', spanish: 'pensar/querer', audioId: 'audio-xiang' },
+  { char: '喜', pinyin: 'xǐ', spanish: 'alegría (gustar)', audioId: 'audio-xi' },
+  { char: '欢', pinyin: 'huan', spanish: 'contento (gustar)', audioId: 'audio-huan' },
+  { char: '对', pinyin: 'duì', spanish: 'correcto/hacia', audioId: 'audio-dui' },
+  { char: '不', pinyin: 'bù', spanish: 'no', audioId: 'audio-bu' },
+  { char: '起', pinyin: 'qǐ', spanish: 'levantarse/iniciar', audioId: 'audio-qi' },
+  { char: '好', pinyin: 'hǎo', spanish: 'bueno', audioId: 'audio-hao' },
+  { char: '意', pinyin: 'yì', spanish: 'intención', audioId: 'audio-yi' },
+  { char: '思', pinyin: 'sī', spanish: 'pensar', audioId: 'audio-si' },
+  { char: '安', pinyin: 'ān', spanish: 'paz/tranquilidad', audioId: 'audio-an' },
+  { char: '没', pinyin: 'méi', spanish: 'no tener', audioId: 'audio-mei' },
+  { char: '关', pinyin: 'guān', spanish: 'cerrar', audioId: 'audio-guan' },
+  { char: '系', pinyin: 'xì', spanish: 'relación', audioId: 'audio-xi1' },
+  { char: '事', pinyin: 'shì', spanish: 'asunto', audioId: 'audio-shi' },
+  { char: '请', pinyin: 'qǐng', spanish: 'por favor/invitar', audioId: 'audio-qing' },
+  { char: '问', pinyin: 'wèn', spanish: 'preguntar', audioId: 'audio-wen' },
+  { char: '题', pinyin: 'tí', spanish: 'tema/pregunta', audioId: 'audio-ti' },
+  { char: '坐', pinyin: 'zuò', spanish: 'sentarse', audioId: 'audio-zuo' },
+  { char: '可', pinyin: 'kě', spanish: 'poder (permitido)', audioId: 'audio-ke' },
+  { char: '以', pinyin: 'yǐ', spanish: 'usar/con', audioId: 'audio-yi1' },
+  { char: '打', pinyin: 'dǎ', spanish: 'golpear/abrir', audioId: 'audio-da' },
+  { char: '开', pinyin: 'kāi', spanish: 'abrir/empezar', audioId: 'audio-kai' },
+  { char: '门', pinyin: 'mén', spanish: 'puerta', audioId: 'audio-men' },
+  { char: '窗', pinyin: 'chuāng', spanish: 'ventana', audioId: 'audio-chuang' },
+  { char: '咖', pinyin: 'kā', spanish: 'café (1er carácter)', audioId: 'audio-ka' },
+  { char: '啡', pinyin: 'fēi', spanish: 'café (2do carácter)', audioId: 'audio-fei' },
+  { char: '喝', pinyin: 'hē', spanish: 'beber', audioId: 'audio-he' },
+  { char: '杯', pinyin: 'bēi', spanish: 'taza/vaso', audioId: 'audio-bei' },
+  { char: '茶', pinyin: 'chá', spanish: 'té', audioId: 'audio-cha' },
+  { char: '果', pinyin: 'guǒ', spanish: 'fruta', audioId: 'audio-guo' },
+  { char: '汁', pinyin: 'zhī', spanish: 'jugo/zumo', audioId: 'audio-zhi' },
+  { char: '可', pinyin: 'kě', spanish: 'puede/posible', audioId: 'audio-ke1' },
+  { char: '乐', pinyin: 'lè', spanish: 'alegría', audioId: 'audio-le' },
+  { char: '牛', pinyin: 'niú', spanish: 'vaca', audioId: 'audio-niu' },
+  { char: '奶', pinyin: 'nǎi', spanish: 'leche', audioId: 'audio-nai' },
+  { char: '啤', pinyin: 'pí', spanish: 'cerveza (1er carácter)', audioId: 'audio-pi' },
+  { char: '酒', pinyin: 'jiǔ', spanish: 'licor', audioId: 'audio-jiu' },
+  { char: '红', pinyin: 'hóng', spanish: 'rojo', audioId: 'audio-hong' },
+  { char: '葡', pinyin: 'pú', spanish: 'uva (1er carácter)', audioId: 'audio-pu' },
+  { char: '萄', pinyin: 'táo', spanish: 'uva (2do carácter)', audioId: 'audio-tao' },
+  { char: '白', pinyin: 'bái', spanish: 'blanco', audioId: 'audio-bai' },
+  { char: '水', pinyin: 'shuǐ', spanish: 'agua', audioId: 'audio-shui' },
+  { char: '热', pinyin: 'rè', spanish: 'caliente', audioId: 'audio-re' },
+  { char: '冷', pinyin: 'lěng', spanish: 'frío', audioId: 'audio-leng' },
+  { char: '冰', pinyin: 'bīng', spanish: 'hielo', audioId: 'audio-bing' },
+  { char: '馆', pinyin: 'guǎn', spanish: 'lugar (cafetería)', audioId: 'audio-guan1' },
+  { char: '酒', pinyin: 'jiǔ', spanish: 'licor', audioId: 'audio-jiu1' },
+  { char: '吧', pinyin: 'bā', spanish: 'bar', audioId: 'audio-ba' },
+  { char: '吃', pinyin: 'chī', spanish: 'comer', audioId: 'audio-chi' },
+  { char: '面', pinyin: 'miàn', spanish: 'fideos', audioId: 'audio-mian' },
+  { char: '条', pinyin: 'tiáo', spanish: 'tira (clasificador)', audioId: 'audio-tiao' },
+  { char: '米', pinyin: 'mǐ', spanish: 'arroz', audioId: 'audio-mi' },
+  { char: '饭', pinyin: 'fàn', spanish: 'comida', audioId: 'audio-fan' },
+  { char: '包', pinyin: 'bāo', spanish: 'envolver (pan relleno)', audioId: 'audio-bao' },
+  { char: '子', pinyin: 'zi', spanish: 'sufijo diminutivo', audioId: 'audio-zi' },
+  { char: '饺', pinyin: 'jiǎo', spanish: 'empanadilla', audioId: 'audio-jiao' },
+  { char: '鸭', pinyin: 'yā', spanish: 'pato', audioId: 'audio-ya' },
+  { char: '寿', pinyin: 'shòu', spanish: 'longitud de vida', audioId: 'audio-shou' },
+  { char: '火', pinyin: 'huǒ', spanish: 'fuego', audioId: 'audio-huo' },
+  { char: '锅', pinyin: 'guō', spanish: 'olla (hotpot)', audioId: 'audio-guo1' },
+  { char: '味', pinyin: 'wèi', spanish: 'sabor', audioId: 'audio-wei' },
+  { char: '道', pinyin: 'dào', spanish: 'camino/sabor', audioId: 'audio-dao' },
+  { char: '月', pinyin: 'yuè', spanish: 'luna/mes', audioId: 'audio-yue' },
+  { char: '饼', pinyin: 'bǐng', spanish: 'pastel', audioId: 'audio-bing1' },
+  { char: '甜', pinyin: 'tián', spanish: 'dulce', audioId: 'audio-tian' },
+  { char: '苦', pinyin: 'kǔ', spanish: 'amargo', audioId: 'audio-ku' },
+  { char: '咸', pinyin: 'xián', spanish: 'salado', audioId: 'audio-xian' },
+  { char: '鱼', pinyin: 'yú', spanish: 'pescado', audioId: 'audio-yu' },
+  { char: '菜', pinyin: 'cài', spanish: 'plato/comida', audioId: 'audio-cai' },
+  { char: '辣', pinyin: 'là', spanish: 'picante', audioId: 'audio-la' },
+  { char: '酸', pinyin: 'suān', spanish: 'ácido', audioId: 'audio-suan' },
+  { char: '奶', pinyin: 'nǎi', spanish: 'leche', audioId: 'audio-nai1' }
 ];
+
     let currentIndex = 0;
     let writer = null;
     let isDrawing = false;
@@ -725,6 +829,15 @@ const characters = [
         showCharacter(currentIndex);
       }, 250);
     });
+
+
+    function playAudio() {
+      const audioId = characters[currentIndex].audioId;
+      const audio = document.getElementById(audioId);
+      if (audio) {
+          audio.play();
+      }
+  }
   </script>
 </body>
 </html>
